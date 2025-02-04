@@ -11,8 +11,6 @@ powercfg -change -hibernate-timeout-ac 0
 powercfg -change -monitor-timeout-dc 10
 powercfg -change -standby-timeout-dc 30
 powercfg -change -hibernate-timeout-dc 30
-timeout 200
-powershell.exe C:\NA\Installation\NIC_Power_Management.ps1
 timeout 100
 powershell -command "& {Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force}"
 powershell.exe c:\na\installation\website.ps1
